@@ -171,4 +171,80 @@
     }
 }
 
-/*  */
+/* exercise 13 */
+
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: rotate-bounce-13 2s linear;
+}
+
+@keyframes rotate-bounce-13 {
+    0% {
+        left: 10%;
+        top: -10%;
+    }
+
+
+    20% {
+        left: 90%;
+        top: -10%;
+    }
+
+    40% {
+        left: 90%;
+        top: 100%;
+    }
+
+    60% {
+        left: -10%;
+        top: 100%;
+    }
+
+    80% {
+        left: -10%;
+        top: -10%;
+    }
+
+    100% {
+        left: 10%;
+        top: -10%;
+    }
+
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: rotate-bounce-bottom-13 2s linear;
+}
+
+@keyframes rotate-bounce-bottom-13 {
+    0% {
+        right: 20%;
+        top: 100%;
+    }
+
+    20% {
+        right: 80%;
+        top: 100%;
+    }
+
+    40% {
+        right: 80%;
+        top: -10%;
+    }
+
+    60% {
+        right: -10%;
+        top: -10%;
+
+    }
+
+    80% {
+        right: -10%;
+        top: 100%;
+    }
+
+    100% {
+        right: 20%;
+        top: 100%;
+    }
+}
