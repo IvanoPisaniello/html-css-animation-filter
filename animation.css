@@ -52,3 +52,29 @@
 }
 
 /* exercise 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* exercise 7 */
+
+.ex-7-img {
+    transition: filter 0.5s linear;
+}
+
+.ex-7-img:hover {
+    filter: invert(100%)blur(1px);
+}
+
+/* exercise 8 */
+.ex-8-img {
+    transition: filter 1s linear, border-radius 1s linear;
+}
+
+.ex-8-img:hover {
+    filter: sepia(100%)blur(1px);
+    border-radius: 20px;
+}
+
+/* exercise 9 */
