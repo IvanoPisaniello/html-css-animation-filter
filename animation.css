@@ -36,3 +36,19 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
+/* exercise 5 */
+
+.ex-5-square {
+    transition: scale 1s ease;
+}
+
+.ex-5-square:hover {
+    scale: 2;
+}
+
+.ex-5-square:active {
+    scale: 0.6;
+}
+
+/* exercise 6 */
