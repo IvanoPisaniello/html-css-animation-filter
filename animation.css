@@ -78,3 +78,50 @@
 }
 
 /* exercise 9 */
+
+.ex-9-img {
+    transition: filter 1s linear, border-radius 1s linear, scale 1s linear;
+}
+
+.ex-9-img:hover {
+    filter: sepia(100%)blur(1px);
+    border-radius: 20px;
+    scale: 1.5;
+}
+
+/* exercise 10 */
+
+.ex-10-icon {
+    animation: rotate-reverse 1s linear infinite reverse;
+}
+
+@keyframes rotate-reverse {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* exercise 11 */
+.ex-11-icon:hover {
+    animation: rotate 1.5s ease-in;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate (0deg);
+    }
+}
+
+/* exercise 12 */
