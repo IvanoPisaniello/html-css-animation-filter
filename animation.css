@@ -125,3 +125,50 @@
 }
 
 /* exercise 12 */
+
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: rotate-bounce 1.5s linear;
+}
+
+@keyframes rotate-bounce {
+    0% {
+        left: 10%;
+        bottom: 100%;
+    }
+
+    50% {
+        left: calc(100% - 60px);
+        bottom: 100%;
+    }
+
+
+    100% {
+        left: 10%;
+        bottom: 100%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: rotate-bounce-bottom 1.5s linear;
+}
+
+@keyframes rotate-bounce-bottom {
+    0% {
+        right: 20%;
+        top: 100%;
+    }
+
+    50% {
+        right: calc(100% - 60px);
+        top: 100%;
+    }
+
+
+    100% {
+        right: 20%;
+        top: 100%;
+    }
+}
+
+/*  */
